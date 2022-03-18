@@ -15,7 +15,19 @@ export default [
   },
   {
     component: 'CNavItem',
-    name: 'Colors',
+    name: 'Ventas',
+    to: '/ventas/index',
+    icon: 'cil-chart-pie',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Personalizado',
+    to: '/theme/colorsrespaldo',
+    icon: 'cil-pencil',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Colorssssss',
     to: '/theme/colors',
     icon: 'cil-drop',
   },

@@ -30,6 +30,16 @@ const routes = [
         component: () => import('@/views/theme/Colors.vue'),
       },
       {
+        path: '/ventas/index',
+        name: 'Index',
+        component: () => import('@/views/ventas/Index.vue'),
+      },
+      {
+        path: '/theme/colorsrespaldo',
+        name: 'ColorsRespaldo',
+        component: () => import('@/views/theme/ColorsRespaldo.vue'),
+      },
+      {
         path: '/theme/typography',
         name: 'Typography',
         component: () => import('@/views/theme/Typography.vue'),
